@@ -1,24 +1,39 @@
-# README
+## Blog_App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails website that will show the list of posts,give comments and like the post
 
-Things you may want to cover:
+## Built with
 
-* Ruby version
+Ruby
+Rubocop
+Stylelint
+RoR
 
-* System dependencies
+## SetUp
+To get a local copy up and running follow this steps
 
-* Configuration
+git clone https://github.com/IfzaRasool/blog_app.git
+Run bundle install
+Run the project
+rails s
 
-* Database creation
+## Author
 
-* Database initialization
+👤 **IFZA Rasool**
+- GitHub: [@ifzarasool](https://github.com/IfzaRasool
+- Twitter: [@ifzaarain](https://twitter.com/ifzaarain)
+- LinkedIn: [@ifza-arain]https://www.linkedin.com/in/ifza-arain/
 
-* How to run the test suite
+## 🤝 Contributing
 
-* Services (job queues, cache servers, search engines, etc.)
+Contributions, issues, and feature requests are welcome!
 
-* Deployment instructions
+Feel free to check the [issues page](../../issues/).
 
-* ...
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
