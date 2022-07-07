@@ -4,10 +4,10 @@ This is a Ruby on Rails website that will show the list of posts,give comments a
 
 ## Built with
 
-Ruby
-Rubocop
-Stylelint
-RoR
+- Ruby
+- Rubocop
+- Stylelint
+- RoR
 
 ## SetUp
 To get a local copy up and running follow this steps
