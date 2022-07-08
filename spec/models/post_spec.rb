@@ -4,7 +4,8 @@ RSpec.describe Post, type: :model do
   describe 'Validation for Post model' do
     before(:each) do
       @user = User.new(name: 'Salman', bio: 'Salman is a mechnical engineer', posts_counter: 0)
-      @post = Post.new(author: @user, title: 'Patience is the key of success', text: 'Motivated', likes_counter: 1, comments_counter: 4)
+      @post = Post.new(author: @user, title: 'Patience is the key of success', text: 'Motivated', likes_counter: 1,
+                       comments_counter: 4)
     end
 
     before { @post }
