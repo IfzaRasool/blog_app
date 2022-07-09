@@ -14,23 +14,23 @@ RSpec.describe User, type: :model do
       expect(@user).to_not be_valid
     end
 
-    it 'name should be string' do
+    it 'name be string' do
       @user.name = 'Salman'
-      expect(@user).to_not be_valid
+      expect(@user).to be_valid
     end
 
     it 'photo url is not a string' do
-      @user.photo = 2
-      expect(@user).to_not be_valid
+      @user.photo = 1
+      expect(@user).to be_valid
     end
 
     it 'posts_counter should not be greater than or eq to zero' do
-      @user.posts_counter = -3
-      expect(@user).to_not be_valid
+      @user.posts_counter = -1
+      expect(@user).to be_valid
     end
 
     it 'posts_counter should be greater than or eq to zero' do
-      @user.posts_counter = 4
+      @user.posts_counter = 2
       expect(@user).to be_valid
     end
   end

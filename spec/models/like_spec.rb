@@ -14,7 +14,7 @@ RSpec.describe Like, type: :model do
     end
 
     it 'if post_id should be present' do
-      @like.post_id = nil
+      @like.post_id = false
       expect(@like).to_not be_valid
     end
   end

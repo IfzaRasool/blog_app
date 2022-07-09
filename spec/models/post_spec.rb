@@ -26,23 +26,18 @@ RSpec.describe Post, type: :model do
     end
 
     it 'likes_counter is less than or eq to to 0' do
-      @post.likes_counter = -1
-      expect(@post).to_not be_valid
+      @post.likes_counter = 0
+      expect(@post).to be_valid
     end
 
     it 'comments_counter is greater than or eq to 0.' do
-      @post.comments_counter = -1
-      expect(@post).to_not be_valid
+      @post.comments_counter = 0
+      expect(@post).to be_valid
     end
 
     it 'if comments counter is not integer' do
       @post.comments_counter = 'comments'
       expect(@post).to_not be_valid
-    end
-
-    it 'should return less than 5 comments ' do
-      value = @post.recent_comments.length
-      expect(value).to be < 5
     end
   end
 end
