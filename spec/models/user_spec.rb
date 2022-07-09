@@ -26,7 +26,7 @@ RSpec.describe User, type: :model do
 
     it 'posts_counter should not be greater than or eq to zero' do
       @user.posts_counter = -1
-      expect(@user).to be_valid
+      expect(@user).to_not be_valid
     end
 
     it 'posts_counter should be greater than or eq to zero' do

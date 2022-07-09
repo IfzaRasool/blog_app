@@ -26,12 +26,12 @@ RSpec.describe Post, type: :model do
     end
 
     it 'likes_counter is less than or eq to to 0' do
-      @post.likes_counter = 0
+      @post.likes_counter = -1
       expect(@post).to be_valid
     end
 
     it 'comments_counter is greater than or eq to 0.' do
-      @post.comments_counter = 0
+      @post.comments_counter = -1
       expect(@post).to be_valid
     end
 
