@@ -22,10 +22,26 @@
     font-family: 'Roboto', sans-serif;
  }
 
+ html,
+ main{
+    background-color: black;
+}
+
+ .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: goldenrod;
+    text-shadow: 2px 2px black;
+    font-family: 'Roboto', sans-serif;
+ }
+
  .header {
     padding: 1rem;
     margin: auto auto;
-    background-color: cyan;
+    background-color: peru;
+    border-radius: 20%;
+    color: aliceblue;
+    font-weight: bold;
  }
 
 .nav-bar {
@@ -35,14 +51,64 @@
     font-family: 'Roboto', sans-serif;
 }
 
+li:hover{
+    color: black;
+    font-size: 24px;
+}
+
  li {
     list-style: none;
 }
+
 a {
     text-decoration: none;
 }
+
+.main-sec {
+    margin-top: 1rem;
+    background-color: black;
+    color: aliceblue;
+}
+
 .card {
     display: grid;
     grid-template-columns: auto auto;
+    border: 2px transparent black;
+    margin: 2rem;
+    background-color: coral;
+    color: aliceblue;
+}
+
+.user-sec {
     border: 2px solid black;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: cadetblue;
+}
+
+.post-btn > a {
+    color: black
+}
+
+.post-btn {
+ padding: 1rem;
+ background-color: white;
+ margin: 5rem;
+ color: black;
+}
+
+.post-container {
+ background-color: black;
+ color: aliceblue;
+}
+.post-sec {
+    background-color: black;
+    color: white;
+}
+.post-display {
+    margin: 2rem;
+    padding: 2rem;
+    border: 2px transparent cornsilk;
+    background-color: cadetblue;
+    border-radius: 2rem;
 }
