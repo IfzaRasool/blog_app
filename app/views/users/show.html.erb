@@ -1,17 +1,16 @@
- <section class="flex flex-col mx-auto w-11/12 gap-4">
- <div class= "flex w-full gap-x-4">
-   <div class="w-2/12 border-2 p-4">
+ <section class="sec">
+ <div class="card">
+   <div class="card-img">
       <img src="<%= @user.photo %>" alt="image">
    </div>
   
-   <div class="flex border-2 px-4 py-4 flex-1 justify-between">
-     <h2 class="text-3xl self-center">
+   <div class="card-head">
+     <h2 class="card-primary">
      <%= @user.name %></h2>
         <p class="self-end text-xs">
         <span>Number of posts: </span>
         <%= @user.posts_counter || 0 %>
         </p>
-        
    </div>
  </div>
 
