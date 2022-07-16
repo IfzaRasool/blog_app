@@ -114,3 +114,48 @@ a {
   background-color: cadetblue;
   border-radius: 2rem;
 }
+
+.post-create-btn {
+  padding: 1rem;
+  font-weight: bold;
+  margin-left: 4rem;
+}
+
+.post-form-sec {
+  background-color: black;
+  color: aliceblue;
+}
+
+.add-post-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 32px;
+  background-color: coral;
+  border-radius: 20rem;
+  text-transform: capitalize;
+  color: black;
+}
+
+.add-post-head:hover {
+  color: white;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid coral;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.add-post-btn {
+  width: 10rem;
+  padding: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  align-items: center;
+  margin: 2rem;
+}
