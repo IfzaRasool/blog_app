@@ -51,13 +51,13 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
+li {
+  list-style: none;
+}
+
 li:hover {
   color: black;
   font-size: 24px;
-}
-
-li {
-  list-style: none;
 }
 
 a {
@@ -73,7 +73,7 @@ a {
 .card {
   display: grid;
   grid-template-columns: auto auto;
-  border: 2px transparent black;
+  border: 2px transparent;
   margin: 2rem;
   background-color: coral;
   color: aliceblue;
@@ -110,7 +110,7 @@ a {
 .post-display {
   margin: 2rem;
   padding: 2rem;
-  border: 2px transparent cornsilk;
+  border: 2px transparent;
   background-color: cadetblue;
   border-radius: 2rem;
 }
