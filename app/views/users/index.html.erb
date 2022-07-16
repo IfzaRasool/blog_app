@@ -1,2 +1,18 @@
-<h1>Users</h1>
-<p>Display all users</p>
+<main>
+<header class="header">
+<%# <h3 class="logo">Blog App</h3> %>
+<ul class="nav-bar">
+<li class="logo">Blog App</li>
+<li>Home</li>
+<li>About</li>
+<li>All Users</li>
+</ul>
+</header>
+<section class="main-sec">
+<div>
+  <% @users.each do |user| %>
+   <%= render partial: 'user', locals: {user: user} %>
+  <% end %>
+</div>
+</section>
+<main>

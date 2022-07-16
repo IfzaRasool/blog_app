@@ -1,2 +1,31 @@
-<h1>Posts</h1>
-<p>display information for a specific post</p>
+<div>
+<section>
+ <div class="flex justify-between">
+    <p>Post #<%= @post.id %> by <%= @post.author.name%></p>
+    
+    <p>
+        <span>
+          Comments: <%= @post.comments_counter || 0 %>,
+          Likes: <%= @post.likes_counter || 0 %>
+        </span>
+    </p>
+  </div>  
+  <p><%= @post.text %></p>
+  </section>
+
+<div class="border-2 p-3">
+    <% @post.recent_comments.each do |comment| %>
+     <div>
+         <p> 
+           <span>
+             <%= comment.author.name %>:
+            </span> 
+           <span>
+             <%= comment.text %>
+           </span>
+        </p>
+     </div>
+    
+    <% end %>
+</div>
+</div>
